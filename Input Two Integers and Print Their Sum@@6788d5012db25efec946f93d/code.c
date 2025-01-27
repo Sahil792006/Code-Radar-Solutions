@@ -8,5 +8,5 @@ int main(){
     scanf("%d", &b);
     c=a+b;
     printf("Sum: ", c);
-    
+    return 0;
 }
