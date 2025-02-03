@@ -10,4 +10,5 @@ int main(){
     scanf("%d", &c);
     d = (a + b + c)/3;
     printf("Average: %f", d)
+    return 0;
 }
