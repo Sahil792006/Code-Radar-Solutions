@@ -11,5 +11,4 @@ int main(){
     else {
         printf("False");
     }
-    printf("%d %d", a,b);
 }
