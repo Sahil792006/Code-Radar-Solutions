@@ -9,6 +9,6 @@ int main(){
         printf("True");
     }
     false {
-        printf("False")
+        printf("False");
     }
 }
