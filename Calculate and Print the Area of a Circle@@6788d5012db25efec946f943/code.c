@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a;
+    float a;
     float b;
     printf("");
     scanf("%d", &a);
