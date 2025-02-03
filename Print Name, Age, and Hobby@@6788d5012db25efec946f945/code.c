@@ -10,6 +10,6 @@ int main(){
     scanf("%d", &age);
     printf("\n");
     scanf("%s", &hobby);
-    printf("Name: %s\nAge: %d\nHobby:%s", name, age, hobby);
+    printf("Name: %s\nAge: %d\nHobby: %s", name, age, hobby);
     return 0;
 }
