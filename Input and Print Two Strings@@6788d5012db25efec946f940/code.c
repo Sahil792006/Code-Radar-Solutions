@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    char str1;
-    char str2;
+    char str1[100];
+    char str2[100];
     printf("");
-    scanf("%c", &str1);
+    scanf("%s", &str1);
     printf("");
-    scanf("%c", &str2);
+    scanf("%s", &str2);
     printf("You entered: %s and ", str1);
     printf("%s", str2);
     return 0;
