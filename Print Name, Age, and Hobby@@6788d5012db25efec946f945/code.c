@@ -11,5 +11,5 @@ int main(){
     printf("\n");
     scanf("%c", &hobby);
     printf("Name: %c\nAge: %d\nHobby: %c", name, age, hobby);
-
+    return 0;
 }
