@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    char Name;
-    char Hobby;
-    int Age;
+    char name;
+    char hobby;
+    int age;
     printf("");
-    scanf("%c", &Name);
+    scanf("%c", &name);
     printf("");
-    scanf("%d", &Age);
+    scanf("%d", &age);
     printf("\n");
-    scanf("%c", &Hobby);
-    printf("Name: %c\nAge: %d\nHobby: %c", Name, Age, Hobby);
-    
+    scanf("%c", &hobby);
+    printf("Name: %c\nAge: %d\nHobby: %c", name, age, hobby);
+
 }
