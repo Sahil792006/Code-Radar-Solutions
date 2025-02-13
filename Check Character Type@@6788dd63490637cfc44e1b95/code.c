@@ -8,20 +8,20 @@ int main() {
     scanf("%c", &ch);
 
     if (isdigit(ch)) {
-        printf("%c", ch);
+        printf("Digit");
     }
 
     else if (isalpha(ch)) {
         char lower_ch = tolower(ch);
 
         if (lower_ch == 'a' || lower_ch == 'e' || lower_ch == 'i' || lower_ch == 'o' || lower_ch == 'u') {
-            printf("%c", ch);
+            printf("Vowel");
         } else {
-            printf("%c", ch);
+            printf("Consonant");
         }
     }
     else {
-        printf("%c", ch);
+        printf("Special Character");
     }
 
     return 0;
