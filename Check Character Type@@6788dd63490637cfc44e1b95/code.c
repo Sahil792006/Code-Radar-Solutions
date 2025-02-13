@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char a;
-    scanf("%c", &a);
+    char a[50];
+    scanf("%s", &a);
     if(a == "aeiou AEIOU"){
         printf("Vowel");
     }
