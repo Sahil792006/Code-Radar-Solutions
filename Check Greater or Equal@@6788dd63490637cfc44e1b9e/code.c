@@ -5,9 +5,7 @@ int main(){
     if(a>b){
         printf("Yes");
     }
-    else if(a==b){
-        printf("Equal");
-    }
+    
     else{
         printf("No");
     }
