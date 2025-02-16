@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-    long unsigned a;
-    scanf("%lu", &a);
-    if(a | 1){
+    int a;
+    scanf("%d", &a);
+    int mask = 1 << 31;
+    if(a & mask){
         printf("Set");
     }
     else{
