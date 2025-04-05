@@ -9,6 +9,7 @@ int main(){
         }
         for(int k=1; k<=(2*i-1); k++){
             printf("%d" , c);
+            c++;
             c = 1 - c;
         }
         printf("\n");
