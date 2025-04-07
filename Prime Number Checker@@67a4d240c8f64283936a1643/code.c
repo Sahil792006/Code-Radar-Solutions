@@ -1,19 +1,21 @@
 #include <stdio.h>
-int check(int a){
-    if a==1;
-        return 0;
-    else if a==0;
-        return 0;
-    else if a==2;
-        return 1;
-    else if a==3;
-        return 1;
-    else;
-        return 6*a+1 and 6*a-1
+int main(){
+    int t; 
+    scanf("%d", &t);
+    while(t--){
+        int num;
+        scanf("%d", &num);
+        printf("%d\n", isPrime(num));
+    }
 }
 
-int main(){
-    int n;
-    scanf("%d", &n);
-    printf("%d", check(n));
+int isPrime(int num){
+    if (num == 0|| num == 1)
+        flag = 1;
+    for(i=2; i<=num; i++){
+        if(num % i == 0){
+            flag = 1;
+            break;
+        }
+    }
 }
