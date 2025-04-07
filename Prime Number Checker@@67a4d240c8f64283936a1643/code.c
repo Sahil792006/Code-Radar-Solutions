@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Define isPrime before main to avoid implicit declaration
 int isPrime(int num) {
     if (num <= 1)
         return 0;
